@@ -628,6 +628,7 @@ select option{
     margin-top: -425px;
     margin-left: 133px;
     overflow: hidden;
+    /* position: relative; */
 }
 
 .news-signup-image{
@@ -641,7 +642,7 @@ select option{
     justify-content: space-between;
     position:absolute;
     margin-top: -175px;
-    left: 1150px;
+    left: 525px;
     gap: 800px;
 }
 
@@ -972,7 +973,9 @@ select option{
     height: 2px;
 }
 
-
+img{
+    object-fit: cover;
+}
 
 
 
